@@ -1,0 +1,13 @@
+{
+  "name": "villager-skill-sharing-root",
+  "version": "1.0.0",
+  "description": "Root package to manage client and server",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

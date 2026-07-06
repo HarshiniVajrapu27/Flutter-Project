@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Ramesh Kumar",
+      "email": "admin@skillsharing.org",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "9876543210",
+      "role": "admin",
+      "village": "Kavitam",
+      "isVerified": true
+    },
+    {
+      "id": "trainer-1",
+      "name": "Satyanarayana Murthy",
+      "email": "satya.farmer@gmail.com",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "8765432109",
+      "role": "trainer",
+      "village": "Penugonda",
+      "skills": [
+        "Farming Techniques",
+        "Organic Farming"
+      ],
+      "experience": "15",
+      "languages": [
+        "Telugu",
+        "English"
+      ],
+      "timings": "Morning (6:00 AM - 10:00 AM)",
+      "fee": "Free",
+      "bio": "Experienced farmer specializing in natural organic farming techniques, crop rotation, and water-efficient irrigation.",
+      "photo": "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8,
+      "isVerified": true,
+      "reviews": [
+        {
+          "learnerName": "Kalyan Raju",
+          "rating": 5,
+          "text": "Excellent guidance on natural pesticides! Saved my paddy crops."
+        }
+      ]
+    },
+    {
+      "id": "trainer-2",
+      "name": "Saraswathi Devi",
+      "email": "saraswathi.tailor@gmail.com",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "7654321098",
+      "role": "trainer",
+      "village": "Kavitam",
+      "skills": [
+        "Tailoring",
+        "Handicrafts"
+      ],
+      "experience": "8",
+      "languages": [
+        "Telugu"
+      ],
+      "timings": "Afternoon (2:00 PM - 5:00 PM)",
+      "fee": "₹200 per course",
+      "bio": "Expert tailor specialized in traditional Telugu apparel, modern blouse stitching, and handcrafted embroidery design work.",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9,
+      "isVerified": true,
+      "reviews": [
+        {
+          "learnerName": "Sravani",
+          "rating": 5,
+          "text": "Saraswathi is very patient. I learned tailoring in 1 month!"
+        }
+      ]
+    },
+    {
+      "id": "trainer-3",
+      "name": "Anand Rao",
+      "email": "anand.computer@outlook.com",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "6543210987",
+      "role": "trainer",
+      "village": "Palakollu",
+      "skills": [
+        "Computer Basics",
+        "Coding"
+      ],
+      "experience": "5",
+      "languages": [
+        "Telugu",
+        "English"
+      ],
+      "timings": "Evening (5:00 PM - 8:00 PM)",
+      "fee": "₹500 per month",
+      "bio": "Software engineering graduate teaching digital literacy, basic computer controls, and introductory Python programming.",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.5,
+      "isVerified": true,
+      "reviews": [
+        {
+          "learnerName": "Chandra",
+          "rating": 4,
+          "text": "Learned MS Office and typing. Very useful."
+        }
+      ]
+    },
+    {
+      "id": "trainer-4",
+      "name": "Prasad Rao",
+      "email": "prasad.english@gmail.com",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "9123456789",
+      "role": "trainer",
+      "village": "Marteru",
+      "skills": [
+        "Spoken English",
+        "Tuition Teaching"
+      ],
+      "experience": "10",
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "timings": "Evening (4:00 PM - 7:00 PM)",
+      "fee": "Free",
+      "bio": "Retired school teacher eager to teach village youngsters communication skills, grammar, and school subjects.",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.7,
+      "isVerified": true,
+      "reviews": []
+    },
+    {
+      "id": "learner-1",
+      "name": "Kalyan Raju",
+      "email": "kalyan@gmail.com",
+      "password": "$2a$10$T8Pq4VskRk1yv0u8Hk.6EuxL8g9xXmC9P3g6W4dGbeGf5wM3K3L8K",
+      "phone": "9988776655",
+      "role": "learner",
+      "village": "Penugonda",
+      "skills": [
+        "Organic Farming"
+      ],
+      "favorites": [
+        "trainer-1"
+      ]
+    },
+    {
+      "id": "user-1368cb22",
+      "name": "Ravi",
+      "email": "example@gmail.com",
+      "password": "$2b$10$Wddzr0oJUSmXwM/FfyFunOxkTkAvS1tTMMPdvobHCOa10L1TbCFw.",
+      "role": "learner",
+      "phone": "9987654321",
+      "village": "seripeta",
+      "isVerified": true,
+      "createdAt": "2026-07-05T15:28:28.327Z",
+      "skills": [],
+      "favorites": []
+    },
+    {
+      "id": "user-234f2dd2",
+      "name": "Harshini Vajrapu",
+      "email": "harshinivajrapu27@gmail.com",
+      "password": "$2b$10$FB6/JBeQw4jC7AE3rNCPReGn0E5cdVVFExOK107Z9Syh.aYkfUfdO",
+      "role": "learner",
+      "phone": "9877655542",
+      "village": "penugonda",
+      "isVerified": true,
+      "createdAt": "2026-07-05T15:33:48.458Z",
+      "skills": [],
+      "favorites": []
+    },
+    {
+      "id": "user-9f534661",
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "password": "$2b$10$eIrpZa3q7a037gUPf4cSHOwWFXZZFkJtI9Kpe6DeruyrY9bGB.bWW",
+      "role": "trainer",
+      "phone": "9877654321",
+      "village": "penugonda",
+      "isVerified": true,
+      "createdAt": "2026-07-05T15:37:33.781Z",
+      "skills": [
+        "Coding"
+      ],
+      "experience": "2",
+      "languages": [
+        "Telugu",
+        "English"
+      ],
+      "timings": "8AM-10AM",
+      "fee": "200 rs",
+      "bio": "i can teach C, Java, Python, web development",
+      "photo": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+      "rating": 5,
+      "reviews": []
+    },
+    {
+      "id": "user-bbc6f705",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "$2b$10$8eBF80ZNLyvTLR1j7N0vtOV.s0Sksp7HpsMGZG0yhWEBnRDl1yhF2",
+      "role": "admin",
+      "phone": "9987654321",
+      "village": "penugonda",
+      "isVerified": true,
+      "createdAt": "2026-07-05T15:49:03.772Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1",
+      "learnerId": "learner-1",
+      "learnerName": "Kalyan Raju",
+      "trainerId": "trainer-1",
+      "trainerName": "Satyanarayana Murthy",
+      "skillName": "Organic Farming",
+      "date": "2026-07-10",
+      "time": "08:00 AM",
+      "status": "approved"
+    },
+    {
+      "id": "booking-ae933a19",
+      "learnerId": "user-1368cb22",
+      "learnerName": "Ravi",
+      "trainerId": "trainer-3",
+      "trainerName": "Anand Rao",
+      "skillName": "Computer Basics",
+      "date": "2026-07-22",
+      "time": "10:00 AM",
+      "status": "pending",
+      "createdAt": "2026-07-05T15:29:59.239Z"
+    },
+    {
+      "id": "booking-ef0815ca",
+      "learnerId": "user-234f2dd2",
+      "learnerName": "Harshini Vajrapu",
+      "trainerId": "user-9f534661",
+      "trainerName": "krishna",
+      "skillName": "Coding",
+      "date": "2026-07-14",
+      "time": "09:00 AM",
+      "status": "pending",
+      "createdAt": "2026-07-05T15:51:24.316Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Modern Paddy Cultivation Workshop",
+      "description": "Join us for a free hands-on workshop detailing natural pest control methods and micro-irrigation systems.",
+      "date": "2026-07-15",
+      "time": "10:00 AM",
+      "village": "Penugonda",
+      "type": "workshop",
+      "image": "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&q=80&w=400",
+      "likes": 12
+    },
+    {
+      "id": "event-2",
+      "title": "Digital Literacy Campaign",
+      "description": "Free computer workshop covering smartphone banking, online agriculture market access, and basic browsing.",
+      "date": "2026-07-22",
+      "time": "03:00 PM",
+      "village": "Palakollu",
+      "type": "event",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&q=80&w=400",
+      "likes": 8
+    },
+    {
+      "id": "event-3",
+      "title": "How learning spoken English changed my life",
+      "description": "Kiran from Penugonda shares his success story of learning English on the platform and securing a delivery assistant job in the city.",
+      "date": "2026-07-01",
+      "village": "Penugonda",
+      "type": "story",
+      "author": "Kiran Kumar",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=400",
+      "likes": 25
+    }
+  ]
+}
