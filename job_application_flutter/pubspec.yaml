@@ -1,0 +1,23 @@
+name: skill_apply
+description: >
+  SkillApply — A Flutter Web job application form supporting personal details,
+  skill selection, experience slider, resume filename entry, and submission.
+  Aligned with UN SDG 8: Decent Work and Economic Growth.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

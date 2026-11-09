@@ -1,0 +1,22 @@
+# Flutter
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Node / Old
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Netlify Flutter clone cache
+_flutter/
+
+# OS files
+.DS_Store
+Thumbs.db
+

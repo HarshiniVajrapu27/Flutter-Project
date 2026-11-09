@@ -1,0 +1,18 @@
+# Netlify Configuration for SkillApply Flutter Web
+
+[build]
+  publish = "job_application_flutter/build/web"
+  command = "if [ ! -d \"_flutter\" ]; then git clone https://github.com/flutter/flutter.git --depth 1 -b stable _flutter; fi && export PATH=\"$PATH:$(pwd)/_flutter/bin\" && cd job_application_flutter && flutter pub get && flutter build web --release"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+
